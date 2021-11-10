@@ -33,9 +33,13 @@ ol {
 address{
     font-style: normal;
 }
+
+
+
 #box{
     width: 1300px;
     margin: auto;
+    display: grid;
 }
 h1{
     font-size: 50px;
@@ -56,6 +60,32 @@ h1{
     /* left:150px; */
     right: 100px;
     color: whitesmoke;
+
+}
+@media (max-width:600px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
+    #box {
+        display: block;    
+    }
+
+    #box .basic {  
+        width: 600px;
+        height: 135px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 10px;
+    }
+
+    .basic .text{
+        position:absolute;
+        top:40px;
+        right: 140px;
+        color: whitesmoke;
+    }
+   
 
 }
 
