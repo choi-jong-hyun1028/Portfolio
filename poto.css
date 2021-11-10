@@ -61,9 +61,9 @@ h1{
     color: whitesmoke;
 
 }
-@media (max-width:600px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
+@media screen and (max-width:576px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
     #box{
-        width: 600px;
+        width: 576px;
         margin: auto;
         /* display: block; */
     }
