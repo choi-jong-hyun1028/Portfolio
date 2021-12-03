@@ -50,9 +50,6 @@ h1{
     height: 250px;
     position: relative;
 }
-.basic:hover{
-    opacity: 0.7;
-}
 
 .basic .text{
     position:absolute;
